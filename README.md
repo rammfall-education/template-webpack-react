@@ -1,4 +1,4 @@
-# template-webpack-sass
+# template-webpack-react
 
 ## You should install nodejs
 ## After clone in terminal with this folder run

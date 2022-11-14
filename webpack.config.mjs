@@ -38,7 +38,16 @@ export default (_, { mode }) => {
         },
         {
           test: /\.html$/i,
-          loader: "html-loader",
+          loader: 'html-loader',
+        },
+        {
+          test: /\.m?jsx?$/i,
+          exclude: /node_modules/,
+          loader: 'babel-loader',
+        },
+        {
+          test: /\.tsx?$/i,
+          loader: 'ts-loader',
         },
         {
           test: /\.(png|jpe?g|gif|svg)$/i,
